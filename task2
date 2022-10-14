@@ -1,0 +1,13 @@
+import java.util.*;;
+public class Task2 {
+
+    public static void main(String[] args) {
+       int arr[]={22,35,12,11};
+        Arrays.sort(arr);
+        int n=arr.length;
+        System.out.println(arr[n-1]);
+    }    
+
+    }
+    
+}
