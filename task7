@@ -1,0 +1,19 @@
+public class Task7 {
+    public static void main(String[] args) {
+       int reqemler[][]={{10, 20, 30},{40 , 50, 60}} ;
+        int cem2;
+        
+      
+        
+        for(int i = 0 ; i<reqemler.length;i++){
+            
+            cem2=0;
+             for(int j =0; j<reqemler[i].length;j++ ){
+                cem2+= reqemler[i][j];
+                
+            }
+
+            System.out.println(cem2);
+        }
+    }
+}
